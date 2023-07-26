@@ -8,13 +8,13 @@ This package provides a simple but high-throughput interface for ChatGPT API.
 
 ## Installation
 ```bash
-pip install flash-chatgpt-api
 pip install git+https://github.com/Jiayi-Pan/flash_chatapi.git
 ```
 
 ## Example
 ```python
 from flash_chatapi import generate_from_openai_chat_completion
+import asyncio
 
 chats = [
     [{"role": "user", "content": "Say hi"},],
